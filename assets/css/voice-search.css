@@ -1,0 +1,264 @@
+/* Packege Css */
+.seo-package-area .package-geading h2 {
+    font-weight: 800;
+    color: #233f50;
+    line-height: 12px;
+    font-family: poppins;
+    font-size: 56px;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.seo-package-area h2+h6 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #233f50;
+    text-align: left;
+    padding-right: 8px;
+    padding-top: 6px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.seo-package-area table.new-package-UI tr p {
+    font-weight: 800;
+    font-size: 17px;
+    color: #233f50;
+}
+
+.seo-package-area table.new-package-UI tr td,
+.seo-package-area table.new-package-UI tr th {
+    background: #f7cd32;
+    border-top: none;
+    border: 1px solid #ffffff82;
+    text-align: center;
+    width: 25%;
+    font-weight: bold !important;
+    font-family: 'poppinsbold';
+}
+
+.seo-package-area table.new-package-UI tr:first-child th:nth-child(1) {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0 20px !important;
+    vertical-align: middle;
+    color: #233f50;
+}
+
+.seo-package-area table.new-package-UI div#month h2.price-font {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: poppins;
+    color: #233f50;
+    margin: 0;
+}
+
+.seo-package-area table.new-package-UI div#month h2.price-font strong {
+    font-size: 23px;
+    color: #233f50;
+}
+
+.seo-package-area table.new-package-UI div#year {
+    display: none;
+}
+
+.seo-package-area table.new-package-UI tr td {
+    font-weight: 800;
+    font-size: 17px;
+    color: #000000;
+}
+
+.seo-package-area .accordian-packages h4.text-center.sep-heading {
+    background: #243f4e;
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+}
+
+table.seo-rank-table.table.new-package-UI {
+    margin: 0;
+}
+
+.package_table table tr td {
+    border-right: 0 !important;
+    border-left: 1px solid #b6b6b6b3 !important;
+    margin: 0;
+    color: #000;
+}
+
+.seo-rank-table tr:nth-child(odd) {
+    background: #f1f0f0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.seo-rank-table tr:nth-child(even) {
+    background: #eaeaea;
+    border-bottom: 2px solid #e1e0e0;
+}
+
+.seo-package-area .table>:not(caption)>*>* {
+    background: transparent;
+}
+
+.seo-package-area .accordian-packages tr td:nth-child(4) {
+
+    border: 1px solid #feea9d;
+    box-shadow: -5px 7px 12px 2px #44444485;
+    background: #ffd846;
+}
+
+.seo-package-area .accordian-packages tr td i {
+    background: #243f4f;
+    color: #e5f1fd;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.seo-package-area .card {
+    border: none;
+}
+
+.seo-package-area .card-header {
+    padding: 0;
+    background: #233f50;
+    border: none;
+}
+
+.seo-package-area .card-header div.btn-link {
+    color: #fff !important;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.seo-package-area .card-body {
+    padding: 0 !important;
+}
+
+.seo-rank-table tr td {
+    color: #000;
+}
+
+.seo-package-area table {
+
+    margin-bottom: 0 !important;
+
+}
+
+
+.seo-package-area .accordian-packages .card-body table tr td i.fa.fa-times {
+    color: #d41818;
+    background: #fff;
+    padding: 5px 5px;
+    border-radius: 50px;
+}
+
+.seo-package-area .btn.btn-info {
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px 30px;
+    background: #fff;
+    color: #444;
+    border: transparent;
+    font-size: 22px;
+
+
+}
+
+.package_table table tr td {
+    border-right: 0 !important;
+    border-left: 1px solid #b6b6b6b3 !important;
+    margin: 0;
+}
+
+.seo-package-area .accordian-packages .card-body table tr td {
+    border-right: 1px solid #ccc;
+    width: 25%;
+}
+
+.package_table table tr td {
+    width: 25%;
+}
+
+.moreview-scroll {
+    display: none;
+}
+
+.seo-package-area table.new-package-UI td:nth-child(4),
+.seo-package-area table.new-package-UI th:nth-child(4) {
+    box-shadow: -5px 7px 12px 2px #44444485;
+    background: #ffd846;
+}
+
+/* End */
+
+section.page-about-wrapper h2 {
+    color: var(--headingcolor);
+    text-align: center;
+    font-size: 30px;
+    font-family: poppinsbold;
+    padding-bottom: 20px;
+}
+
+/* Start */
+.case-studies-facts .case-study-card-new {
+    background: #f8ce2f;
+    display: grid;
+    align-items: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+    border-radius: 11px;
+    transition: .3s;
+}
+
+.case-studies-facts .case-study-card-new .left img {
+    width: 100%;
+    border-radius: 11px 0 0 11px;
+    height: 249px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.case-studies-facts .case-study-card-new .right {
+    padding: 10px;
+}
+
+.case-studies-facts h2 {
+    color: #253f4f;
+    font-family: poppinsbold;
+    font-size: 40px;
+    position: relative;
+    transition: .4s ease-in-out;
+    margin-bottom: 26px;
+}
+
+.case-studies-facts .case-study-card-new .des {
+    text-align: right !important;
+    float: right;
+}
+
+.case-studies-facts .case-study-card-new .des h3 {
+    font-weight: 700;
+    color: #000;
+    font-family: poppinsbold;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+}
+
+.case-studies-facts .case-study-card-new .des p {
+    text-align: revert;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #575555;
+}
+
+/* End */

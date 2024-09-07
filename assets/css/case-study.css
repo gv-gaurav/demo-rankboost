@@ -1,0 +1,80 @@
+.filters ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filters ul li.active {
+    width: auto;
+    text-align: center;
+    background: #f9cf2f;
+    padding: 9px 18px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.filters ul li {
+    width: auto;
+    text-align: center;
+    background: #ffffff;
+    padding: 9px 18px;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    border: 2px solid #f9cf2f;
+}
+
+.filters-content .col-sm-4 {
+    background: transparent;
+    background-size: contain;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.filters-content .item img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.mark-div {
+    background: #1242e0;
+    padding: 10px;
+    height: 145px;
+    overflow-y: auto;
+}
+
+.mark-div h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.mark-div p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.mark-div .view-btn {
+    background: #f9cf2f;
+    display: inline-block;
+    width: 194px;
+    border-radius: 100px;
+    padding: 6px 20px;
+    margin-left: 9px;
+}
+
+.mark-div .view-btn a {
+    color: #000;
+    font-size: 15px;
+}
+
+.filters-content .col-md-4 {
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+}

@@ -1,0 +1,69 @@
+main.inner-page-title {
+    padding: 0 0 30px;
+    background: no-repeat;
+    min-height: 165px;
+    position: absolute;
+    left: 122px;
+}
+
+section.life-at-ezrankings-img figure {
+    margin: 0;
+}
+
+
+
+section.life-at-ezrankings-img {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+section.life-at-ezrankings-img img {
+    width: 100%;
+}
+
+section.life-at-ezrankings-img {
+    padding-top: 0;
+}
+
+.event-gallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-gallary .event-img {
+    width: 32%;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.event-gallary .event-img img {
+    width: 100%;
+}
+
+.event-gallary .event-img .event-title {
+    text-align: center;
+    background: #1894f1;
+}
+
+.event-gallary .event-img .event-title h3 {
+    color: #fff;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.year-heading {
+    padding-bottom: 0;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 20px;
+}
+
+.year-heading span {
+    display: inline-block;
+    background: #f9cf2f;
+    padding: 10px;
+}
+
+section.life-atEZ {
+    background: #f2f2f2;
+}

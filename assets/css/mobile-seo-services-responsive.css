@@ -1,0 +1,14 @@
+@media(max-width:767px) {
+    #our_reseller_partner input.form-control.effect-8 {
+        color: #000 !important;
+        margin-bottom: 14px;
+    }
+
+    section.what-make-diffrent.card-new-style .col-card {
+
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:360px) {}

@@ -1,0 +1,21 @@
+@media (min-width:768px) and (max-width:992px) {
+
+    .default-left-right-sec .col-sm-9 {
+        width: 100%;
+    }
+}
+
+@media (min-width:500px) and (max-width:992px) {
+    .default-left-right-sec .col-sm-9 {
+        width: 100%;
+    }
+
+    .default-left-right-sec .col-md-3 {
+        width: 100%;
+    }
+
+    .default-left-right-sec .col-md-3 iframe {
+        width: 100% !important;
+    }
+
+}

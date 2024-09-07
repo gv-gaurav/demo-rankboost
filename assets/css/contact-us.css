@@ -1,0 +1,134 @@
+section.contact-us-page .form-control.effect-8 {
+    border: 1px solid #1c517242;
+    background: transparent;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #000;
+    background: #fff;
+}
+
+section.contact-us-page textarea.form-control.effect-8 {
+    height: 100px;
+}
+
+/* section.contact-us-page {
+    background: #e9f6ff;
+} */
+
+section.contact-us-page .form-control::placeholder {
+    color: #000;
+}
+
+section.contact-us-page input.btn.btn-success {
+    text-transform: uppercase;
+    padding: 13px 70px;
+    margin-top: 20px;
+    font-size: 21px;
+    background: #1d5172;
+    border-color: #1d5172;
+    border-radius: 40px;
+}
+
+section.contact-us-page p a {
+    color: #1d5273 !important;
+}
+
+.address-section .contact-colom {
+    background: #caeaff;
+    padding: 17px;
+    margin-bottom: 30px;
+}
+
+.address-section .contact-colom h2 {
+    margin: 0 0 15px;
+    font-size: 23px;
+    text-align: left;
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #4f4e4e;
+}
+
+.contact-colom i {
+    text-align: center;
+    color: #1c5173;
+    height: 34px;
+    float: left;
+    font-size: 17px;
+    vertical-align: top;
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 100%;
+    border: 1px solid #253f50;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 34px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 4px 10px 4px 0;
+}
+
+.contact-colom p {
+    font-size: 15px;
+    vertical-align: unset;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.contact-colom p a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+section.contact-us-page .wrap-title {
+    text-align: left;
+    margin-bottom: 10px !important;
+    padding-bottom: 0 !important;
+}
+
+section.contact-us-page .wrap-title h2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+section.contact-us-page ul.contact-us-about li {
+    text-align: left;
+    border-left: 4px solid #f9cf2f;
+    padding-left: 19px;
+}
+
+section.contact-us-page ul.contact-us-about li h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #0b559b;
+}
+
+section.contact-us-call-to-action {
+    background: #0764aa;
+}
+
+section.contact-us-call-to-action p {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+section.contact-us-call-to-action h3 {
+    text-align: center;
+    color: #fff;
+}
+
+section.contact-us-call-to-action p a {
+    color: #f4d13f;
+    box-shadow: none !important;
+}

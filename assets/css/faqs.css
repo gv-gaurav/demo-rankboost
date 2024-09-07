@@ -1,0 +1,100 @@
+.faq-page .card {
+    border: none;
+    border-bottom: 1px solid #253f4f;
+    border-radius: 0 !important
+}
+
+.faq-page.color-change .card-header {
+    padding-bottom: 2px !important
+}
+
+.faq-page.color-change .col-md-12 {
+    margin: 0;
+    padding: 0
+}
+
+.seo_pack {
+    padding-bottom: 0 !important
+}
+
+.faq-page.color-change {
+    margin: 0;
+    padding: 20px 0 0
+}
+
+.faq-page .card .card-header {
+    border-bottom: 1px solid #6790a9;
+    background: #253f50;
+    border-radius: 0 !important;
+    padding: 0
+}
+
+.faq-page .card .card-header a.collapsed:before,
+.faq-page .card .card-header a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    padding-right: 5px;
+    background: #1a2f3c;
+    width: 41px;
+    padding-left: 6px;
+    padding-top: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    text-align: center;
+    color: #dcf0ff;
+    font-size: 17px
+}
+
+.faq-page .card .card-header a.collapsed:before {
+    content: "\f067";
+    height: 39px
+}
+
+.faq-page .card .card-header a:before {
+    content: "\f068";
+    height: 40px
+}
+
+.faq-page .card .card-body {
+    background: #f7f7f7;
+    border: 1px solid rgba(204, 204, 204, .34901960784313724);
+    color: #000;
+}
+
+.faq-sec h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 25px
+}
+
+.faq-sec h3:before {
+    position: absolute;
+    bottom: -10px;
+    content: '';
+    left: 0;
+    width: 72px;
+    border-bottom: 4px solid#464646;
+    height: 6px;
+    -webkit-transform: skew(-22deg);
+    -ms-transform: skew(-22deg);
+    transform: skew(-22deg)
+}
+
+.faq-sec h3>b {
+    font-weight: 800
+}
+
+.faq-page .card .card-header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: left
+}
+
+.faq-page {
+    padding: 40px 0
+}

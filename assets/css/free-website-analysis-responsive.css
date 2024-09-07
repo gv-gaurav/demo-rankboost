@@ -1,0 +1,39 @@
+@media (min-width:1201px) and (max-width:1400px) {}
+
+@media (min-width:993px) and (max-width:1200px) {}
+
+@media (min-width:768px) and (max-width:992px) {}
+
+@media(max-width:767px) {
+    form#website-analysis {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    form#website-analysis .col-md-6.mr0 {
+        min-width: 50% !important;
+        flex: none;
+        width: 50%;
+
+    }
+
+    .free-website-analysis input.btn.btn-success {
+        text-transform: uppercase;
+        padding: 13px 70px;
+        margin-top: 20px;
+        font-size: 16px;
+        background: #1d5172;
+        border-color: #1d5172;
+        border-radius: 39px;
+        width: 100%;
+    }
+
+    section.brand-section ul li {
+        width: 42%;
+
+    }
+}
+
+@media(max-width:480px) {}
+
+@media(max-width:360px) {}

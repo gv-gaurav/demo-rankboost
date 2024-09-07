@@ -1,0 +1,25 @@
+ul.sitemap li ul {
+    margin-left: 20px;
+}
+
+ul.sitemap>li {
+    width: 23%;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+ul.sitemap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.sitemap>li>a {
+    color: #000;
+    font-weight: 900 !important;
+}
+
+ul.sitemap li a {
+    color: #000;
+    font-weight: 300;
+}

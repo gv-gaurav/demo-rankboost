@@ -1,0 +1,60 @@
+.breadcrumb-bottom {
+    position: absolute;
+    top: 5px;
+    left: 1%;
+    z-index: 1;
+    width: 100%;
+}
+
+.breadcrumb-bottom ul li a {
+    color: #fff;
+}
+
+.breadcrumb-bottom i.fa.fa-angle-right {
+    color: #fff;
+}
+
+section.ranking-form {
+    padding: 40px 0;
+    background: #e9f6ff;
+}
+
+section.ranking-form .form-control.effect-8 {
+    border: 1px solid #1c517242;
+    color: #000;
+}
+
+.form-colom .form-control {
+    border-radius: 0;
+    background: 0 0;
+    border-color: #cccccc1a;
+    padding: 20px;
+    height: 50px !important;
+    margin-bottom: 15px;
+}
+
+.form-colom textarea.form-control {
+    height: 100px !important;
+}
+
+section.ranking-form input.btn.btn-success {
+    text-transform: uppercase;
+    padding: 13px 70px;
+    margin-top: 20px;
+    font-size: 21px;
+    background: #1d5172;
+    border-color: #1d5172;
+    border-radius: 40px;
+}
+
+section.ranking-form input::placeholder {
+    color: #000 !important;
+}
+
+section.ranking-form textarea::placeholder {
+    color: #000 !important;
+}
+
+form#website-analysis {
+    margin: 0;
+}

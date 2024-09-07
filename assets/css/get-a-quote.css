@@ -1,0 +1,139 @@
+.resume-form {
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 1px 5px 20px 0 #ccc;
+}
+
+section.get-aquote-page h1 {
+    font-weight: 700;
+    color: #1d5273;
+}
+
+section.get-aquote-page h4 {
+    font-size: 14px;
+    color: #1c5173;
+}
+
+.resume-form label {
+    font-weight: 600;
+    color: #444;
+    font-size: 14px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: var(--main-font);
+    padding-top: 5px;
+}
+
+.resume-form .mandetiry {
+    color: red;
+    font-size: 18px;
+    right: -12px;
+    top: 0;
+    position: absolute;
+    font-weight: 500;
+}
+
+.resume-form .form-control {
+    border: 1px solid #e0e0e0;
+    height: 44px !important;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+}
+
+.resume-form .btn-info {
+    color: #fff;
+    background-color: #198be0;
+    padding: 10px 37px;
+    margin-top: 12px;
+
+    text-transform: uppercase;
+    border-radius: 22px;
+}
+
+.contact-colom p {
+    font-size: 15px;
+    vertical-align: unset;
+}
+
+.contact-colom.get-a-guote h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #205571;
+}
+
+.contact-colom p {
+    font-size: 15px;
+    vertical-align: unset;
+}
+
+.contact-colom i {
+    text-align: center;
+    color: #1c5173;
+    height: 34px;
+    float: left;
+    font-size: 17px;
+    vertical-align: top;
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 100%;
+    border: 1px solid #253f50;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 34px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 4px 10px 4px 0;
+}
+
+.contact-colom p a {
+    color: #333;
+    text-decoration: none;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.fa-globe:before {
+    content: "\f0ac";
+}
+
+.contact-colom h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #205571;
+    margin-top: 20px;
+}
+
+/* Brand Start */
+section.brand-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+section.brand-section ul li {
+    width: 15%;
+    border: 1px solid #ddd;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+section.brand-section ul li img {
+    width: 100%;
+}
+
+/* Brand End */

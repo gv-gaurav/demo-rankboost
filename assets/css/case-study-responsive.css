@@ -1,0 +1,40 @@
+@media (min-width:1201px) and (max-width:1400px) {}
+
+@media (min-width:993px) and (max-width:1200px) {
+    .filters ul li {
+        width: 22%;
+
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .filters ul li {
+        width: 31% !important;
+
+    }
+
+    .filters ul {
+
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:767px) {
+    .filters ul li {
+        width: 22%;
+
+    }
+
+    .filters ul {
+        flex-direction: row;
+    }
+
+    .filters ul li.active {
+        width: 22%;
+
+    }
+}
+
+@media(max-width:480px) {}
+
+@media(max-width:360px) {}

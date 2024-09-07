@@ -1,0 +1,35 @@
+@media (min-width:1201px) and (max-width:1400px) {}
+
+@media (min-width:993px) and (max-width:1200px) {}
+
+@media (min-width:768px) and (max-width:992px) {}
+
+@media(max-width:767px) {
+    .seo-results .result-table tr:nth-child(1) th {
+        font-size: 17px;
+    }
+
+    .seo-result-table table.table.result-table {
+        min-width: 500px;
+    }
+
+    .seo-result-table {
+        overflow: auto;
+    }
+
+    .seo-results .seo-results-form select {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    main.inner-page-title {
+        padding: 0 0 30px;
+        background: linear-gradient(to right, #e8bd58, #025073, #ecce5b);
+        min-height: 93px;
+    }
+
+}
+
+@media(max-width:480px) {}
+
+@media(max-width:360px) {}

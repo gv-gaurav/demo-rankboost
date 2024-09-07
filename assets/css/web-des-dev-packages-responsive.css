@@ -1,0 +1,95 @@
+@media (min-width:1201px) and (max-width:1400px) {}
+
+.poerfolio-sec-new .box-design2 img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    .empowering-sec .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .poerfolio-sec-new .box-design2 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .empowering-sec .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    section#packages .demo .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    section#packages .demo .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media(max-width:767px) {
+    .seo-package-area .package-geading h2 {
+        font-size: 40px;
+    }
+
+    .pricingTable {
+        margin-bottom: 20px;
+    }
+
+    .poerfolio-sec-new .box-design2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .poerfolio-sec-new .box-design2 {
+        margin-bottom: 20px;
+    }
+
+    .pricingTable .pricing-content li.disable:before,
+    .pricingTable .pricing-content li:before {
+
+        left: 0px !important;
+    }
+
+    ul.pricing-content li {
+        position: relative;
+        font-size: 13px;
+    }
+
+    .seo-package-area ul#pills-tab li a.active {
+        font-size: 15px;
+    }
+
+    .seo-package-area ul#pills-tab li a {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .pricingTable {
+
+        padding: 10px;
+    }
+
+    ul.pricing-content li {
+        position: relative;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:480px) {
+    ul.pricing-content li {
+        position: relative;
+        font-size: 11px;
+    }
+}
+
+@media(max-width:360px) {}

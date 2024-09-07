@@ -1,0 +1,13 @@
+@media(max-width:767px) {
+    ul.sitemap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.sitemap>li {
+        width: 100%;
+        margin-bottom: 30px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,93 @@
+@media (min-width:1201px) and (max-width:1400px) {}
+
+@media (min-width:993px) and (max-width:1200px) {
+    section.left-tab-wrapper .tab-content {
+        height: auto;
+        overflow-y: scroll;
+    }
+
+    section.user-conversion-sec .col-md-3 .user-con-card p {
+        height: 232px;
+        overflow-y: scroll;
+    }
+
+    section.lets-talk-wrapper .card-3 h3 {
+        font-size: 18px;
+    }
+
+    section.testimonial-sec .testi-slide .item p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    section.user-conversion-sec .user-con-card p {
+        height: 223px !important;
+        overflow-y: scroll;
+    }
+
+    section.user-conversion-sec .user-con-card h3 {
+        font-size: 20px;
+    }
+
+    section.user-conversion-sec .col-md-3:nth-child(odd) .user-con-card {
+        padding: 20px;
+    }
+
+    section.left-tab-wrapper .tab-content {
+        height: auto;
+        overflow-y: scroll;
+    }
+
+    section.how-we-do-it-wrapper ul.card2 li .coption {
+        height: 305px;
+    }
+}
+
+@media(max-width:767px) {
+    .seo-package-area table.new-package-UI {
+        width: 1200px;
+    }
+
+    .accordian-packages {
+        width: 1200px;
+    }
+
+    .package-tab.stick {
+        overflow: auto;
+    }
+
+    .seo-package-area .package-geading h2 {
+        line-height: 57px;
+    }
+
+    .moreview-scroll {
+        display: block;
+        font-size: 14px;
+        display: block;
+        font-weight: 500;
+        color: #11559b;
+        letter-spacing: 0;
+    }
+
+    section.how-we-do-it-wrapper ul.card2 li {
+        list-style: none;
+        width: 100%;
+    }
+
+    section.how-we-do-it-wrapper ul.card2 {
+        flex-direction: column;
+    }
+
+    section.user-conversion-sec .col-md-3:nth-child(odd) .user-con-card {
+        height: auto;
+    }
+
+    section.user-conversion-sec .col-md-3 .user-con-card {
+        height: auto;
+    }
+}
+
+@media(max-width:480px) {}
+
+@media(max-width:360px) {}

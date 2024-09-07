@@ -1,0 +1,81 @@
+.section.portfolio .filters-content .show {
+    opacity: 1;
+    visibility: visible;
+    transition: all 350ms;
+}
+
+.section.portfolio .filters-content .hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 350ms;
+}
+
+.filters ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filters ul li.active {
+    width: 17%;
+    text-align: center;
+    background: #f9cf2f;
+    padding: 15px 18px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.filters ul li {
+    width: 17%;
+    text-align: center;
+    background: #ffffff;
+    padding: 15px 18px;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.filters-content .col-sm-4 {
+    background: transparent;
+    background-size: contain;
+
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.section.portfolio .filters-content .item {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    /* border: 1px solid #ddd; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.section.portfolio .filters-content .item h5 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.section.portfolio .filters-content .item .cat {
+    font-size: 17px !important;
+    text-align: left;
+}
+
+.section.portfolio .filters-content .item img {
+    width: 100%;
+}
+
+.section.portfolio .filters-content .item .p-inner {
+    padding: 10px;
+    background: #fff;
+}
+
+.section.portfolio .filters-content .item .p-inner a {
+    background: #f9cf2f;
+    color: #000;
+    display: block;
+    padding: 7px 20px;
+}

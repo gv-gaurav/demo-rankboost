@@ -1,0 +1,97 @@
+form#chkoutform .cf_ttl {
+    background: #1e5372;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    gap: 15px;
+}
+
+form#chkoutform .cf-wrapper {
+    background: #2156711a;
+    padding: 10px;
+}
+
+h3.blllhead.text-center {
+    background: #f9cf33;
+    color: #205671 !important;
+    margin-top: 20px;
+}
+
+form#chkoutform textarea.form-control {
+    height: 44px;
+}
+
+form#chkoutform label {
+    font-weight: 600;
+    padding: 2px 0;
+    margin: 3px;
+    color: #151515;
+    font-size: 14px;
+}
+
+form#chkoutform input,
+form#chkoutform select,
+form#chkoutform textarea {
+    border-radius: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form#chkoutform input::placeholder {
+    color: #000;
+}
+
+form#chkoutform input,
+form#chkoutform select,
+form#chkoutform textarea {
+    border-radius: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+}
+
+form#chkoutform input[type=submit] {
+    background: #1e5272;
+    transition: .6s ease-in-out .3s;
+    padding: 7px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: 2px 1px 3px #3a31315e;
+    margin-left: 10px;
+}
+
+.form-row>.col,
+.form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 49%;
+
+}
+
+form#chkoutform .cf_ttl,
+form#chkoutform h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.cf-button-wrapper {
+    background: #f9cf2f;
+}

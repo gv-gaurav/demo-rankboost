@@ -1,0 +1,21 @@
+.podcasts .col-sm-4 {
+    background: #fff;
+    margin: 10px;
+    max-width: 30%;
+    padding: 10px;
+    height: 400px;
+    border: 1px solid #cccccc73;
+    box-shadow: 2px 1px 3px #44444426;
+    overflow: auto;
+}
+
+.podcasts .col-sm-4 h4 {
+    font-size: 20px;
+    color: #1d5273;
+}
+
+.podcasts .col-sm-4 p {
+    line-height: 30px;
+    text-align: justify;
+    line-height: 29px;
+}
